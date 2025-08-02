@@ -1,0 +1,64 @@
+#  Green Spark Submission
+
+## Project Title
+Urban Heat Island Prediction & Mitigation Assistant
+
+## Problem Statement Addressed
+"How might we build and deploy technology-driven solutions that actively promote cleaner, greener communities and environmental sustainability?"
+
+**Specific Focus:**  
+Urban Heat Island Prediction Using Deep Learning & LLMs — under the theme **Sustainable Urban Development**.
+
+## Project Overview
+Rapid urbanization creates Urban Heat Islands (UHIs) — city areas that are significantly hotter than surrounding regions. Our solution combines **Deep Learning** and a **Large Language Model (LLM)** to:
+- Detect and map heat spots at neighborhood level using satellite imagery, weather, and infrastructure data.
+- Predict temperature trends and high-risk areas.
+- Generate **actionable greening/cooling recommendations** (e.g., rooftop gardens, green corridors).
+- Automatically create **plain-language reports** for policymakers, planners, and communities, explaining **where**, **why**, and **how to fix** UHIs.
+
+## Key Features
+- 🌐 **Deep Learning Segmentation:** Uses U-Net to identify urban structures, green cover, and heat zones from satellite data.
+- 📈 **Time-Series Forecasting:** LSTM models predict future urban heat trends.
+- 🗂️ **LLM-Powered Reports:** Generates multilingual, easy-to-understand PDF/web reports with maps and suggestions.
+- 📊 **Dashboard (Optional):** Visualizes heat maps, recommendations, and simulation of cooling measures.
+
+## GitHub Repository Link
+<!-- Replace with your public repo link -->
+[https://github.com/YourTeam/UrbanHeatAI](https://github.com/YourTeam/UrbanHeatAI)
+
+## Team Members & Roles
+- naseema nesrin — DL Model & Data Pipeline
+- hanna— LLM Integration &  Dashboard & Visualization
+
+## Screenshot
+Example output — heat map + report preview:
+
+![Screenshot](./assets/screenshot.png)
+
+## Additional Notes
+- **Data Sources:** Landsat/Sentinel imagery, local weather APIs.
+- **Tech Stack:** Python, TensorFlow/Keras, PyTorch, Hugging Face LLMs, Streamlit/React (dashboard).
+- **Challenges:** Satellite data preprocessing, integration of DL and LLM pipelines.
+- **Future Plans:** Real-time updates, integration with city planning tools, community engagement features.
+
+---
+
+## 📤 How to Submit
+
+1. Complete your work before **9:00 PM IST**.
+2. Ensure your GitHub repository is **public** and contains:
+   - `README.md` (this file)
+   - Your code/notebooks
+   - Example outputs/screenshots
+3. Submit the **repo link** via the assigned GitHub issue.
+
+---
+
+## 🧑‍⚖️ Judging Criteria
+
+Submissions will be evaluated on:
+- ✅ Relevance to the problem statement
+- ✅ Working prototype/pipeline
+- ✅ Technical depth (DL & LLM)
+- ✅ Clarity & usability of output (maps/reports)
+- ✅ Creativity & potential real-world impact
